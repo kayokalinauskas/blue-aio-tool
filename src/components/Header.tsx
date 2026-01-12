@@ -9,8 +9,8 @@ export function Header() {
             <Wrench className="w-6 h-6 text-primary" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-gradient">DevTools BR</h1>
-            <p className="text-xs text-muted-foreground">Ferramentas para desenvolvedores</p>
+            <h1 className="text-xl font-bold text-gradient">Blue AIO Tool</h1>
+            <p className="text-xs text-muted-foreground">Ferramentas Bluesoft</p>
           </div>
         </div>
       </div>

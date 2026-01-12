@@ -15,17 +15,17 @@
     --popover: 222 47% 8%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 186 100% 50%;
-    --primary-foreground: 222 47% 6%;
+    --primary: 212 100% 39%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 47% 12%;
+    --secondary: 212 80% 15%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 222 47% 14%;
+    --muted: 212 47% 14%;
     --muted-foreground: 215 20% 55%;
 
-    --accent: 186 100% 50%;
-    --accent-foreground: 222 47% 6%;
+    --accent: 212 100% 45%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
@@ -33,24 +33,24 @@
     --success: 142 76% 45%;
     --success-foreground: 210 40% 98%;
 
-    --border: 222 47% 18%;
-    --input: 222 47% 14%;
-    --ring: 186 100% 50%;
+    --border: 212 47% 20%;
+    --input: 212 47% 14%;
+    --ring: 212 100% 39%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 222 47% 6%;
     --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 186 100% 50%;
-    --sidebar-primary-foreground: 222 47% 6%;
-    --sidebar-accent: 222 47% 12%;
+    --sidebar-primary: 212 100% 39%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 212 47% 12%;
     --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 222 47% 18%;
-    --sidebar-ring: 186 100% 50%;
+    --sidebar-border: 212 47% 18%;
+    --sidebar-ring: 212 100% 39%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(186 100% 50%), hsl(200 100% 60%));
+    --gradient-primary: linear-gradient(135deg, hsl(212 100% 39%), hsl(212 80% 55%));
     --gradient-card: linear-gradient(145deg, hsl(222 47% 10%), hsl(222 47% 7%));
-    --glow-primary: 0 0 30px hsl(186 100% 50% / 0.3);
+    --glow-primary: 0 0 30px hsl(212 100% 39% / 0.3);
   }
 
   .dark {
@@ -115,10 +115,10 @@
 
   @keyframes pulse-glow {
     0%, 100% {
-      box-shadow: 0 0 20px hsl(186 100% 50% / 0.2);
+      box-shadow: 0 0 20px hsl(212 100% 39% / 0.2);
     }
     50% {
-      box-shadow: 0 0 40px hsl(186 100% 50% / 0.4);
+      box-shadow: 0 0 40px hsl(212 100% 39% / 0.4);
     }
   }
 }
