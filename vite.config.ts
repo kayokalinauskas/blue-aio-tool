@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/brazil-id-code-tools/",
+  base: "/blue-aio-tool/",
   server: {
     host: "::",
     port: 8080,
